@@ -140,3 +140,8 @@ body {
 .navbar{
   border: none;
 }
+
+.form-inline{
+  margin: none;
+  padding: none;
+}

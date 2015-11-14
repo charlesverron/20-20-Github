@@ -109,8 +109,45 @@
         </div>
       </div>
     </div>
+    <div class="vertical-spacer"></div>
+   <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div id="map" style="width: 100%; height: 400px;"></div>
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+            <script type="text/javascript">
+              var myLatlng = new google.maps.LatLng(48.8406580,2.2872940);
 
-   
+              var myOptions = {
+                  zoom: 13,
+                  center: myLatlng,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP,
+                  styles: [],
+                  map: myLatlng,
+                  radius: 500
+              };
+
+              var map = new google.maps.Map(document.getElementById('map'), myOptions);
+              var marker = new google.maps.Marker({
+                  position: myLatlng,
+                  map: map,
+                  title: "You are here!"
+              });
+              var populationOptions = {
+                  strokeColor: '#FF0000',
+                  strokeOpacity: 0.8,
+                  strokeWeight: 2,
+                  fillColor: '#FF0000',
+                  fillOpacity: 0.35,
+                  map: map,
+                  center: myLatlng,
+                  radius: 1500
+              };
+              var cityCircle = new google.maps.Circle(populationOptions);
+            </script>
+        </div>
+      </div>
+    </div>
 
     <div class="vertical-spacer"></div>
 

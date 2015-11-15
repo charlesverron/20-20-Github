@@ -1,7 +1,6 @@
  /* General classes for page */
 
 body {
-  /*background-image: url("../images/image1.jpg");*/
   font-family: 'Open Sans';
 }
 
@@ -13,8 +12,6 @@ body {
   color: #aaaaaa;
   padding-top: 3em;
   padding-bottom: 3em;
-  /*margin-left: 100px;
-  margin-right: 100px;*/
 }
 
 #footer a {
@@ -83,13 +80,11 @@ body {
 
 .lead h1 {
   font-size: 72px;
-  /*text-shadow: 0 0 20px rgba(0, 0, 0, .8);*/
   font-weight: normal;
 }
 
 .lead h2 {
   background: rgba(0, 0,0, 0);
-  /*text-shadow: 0 0 20px rgba(0, 0, 0, .8)*/
   display: inline-block;
   padding: 0.2em;
   font-size: 18px;
@@ -170,10 +165,7 @@ body {
   margin: auto;
 
 }
-/*#form{
-  
-  color: #E3E1B8;
-}*/
+
 #myModalLabel{
   text-align: center;
 }
@@ -181,16 +173,9 @@ body {
 .navbar{
   border: none;
 }
-/*.containerfooter{
-  width: 1400px;
-}*/
 .container h2{
   text-align: center;
 }
-/*.social{
-  width: 200px;
-  margin: none;
-}*/
 
 table
 {
@@ -202,7 +187,6 @@ td
 }
 .tabtarifs{
   margin-left: 150px;
-  /*margin-right: 200px;*/
   margin-top: 30px;
   font-family: 'Open Sans';
   font-size: 15px;

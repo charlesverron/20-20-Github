@@ -48,6 +48,38 @@ body {
   text-align: center;
   color: white;
 }
+.image{
+  background-image: url('../images/image2bis.jpg');
+  height: 850px;
+  background-size: cover;
+  opacity: 1;
+}
+.rex {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  color: white;
+  text-shadow: 0 0 30px rgba(0, 0, 0, .7);
+}
+.rexstudent{
+  font-style: italic;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 80px;
+  padding-right: 80px;
+  text-shadow: 0 0 30px rgba(0, 0, 0, .7);
+  font-size: 16px;
+}
+.profil{
+  height: 250px;
+  margin-left: 0%;
+  border-radius: 70%;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
 
 .lead h1 {
   font-size: 72px;
@@ -197,3 +229,4 @@ td{
 .position{
   padding-left: 5px;
 }
+

@@ -10,8 +10,9 @@ body {
 #footer {
   background-color: #222;
   color: #aaaaaa;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  height: 6em;
 }
 
 #footer a {
@@ -38,25 +39,25 @@ body {
 /* Lead with big image */
 
 .wrapper {
-  background-image: url('../images/image1.jpg');
-  height: 850px;
+  background-image: url('../images/banniere.png');
+  height: 500px;
   background-size: cover;
-  padding-top: 90px;
+  padding-top: 500px;
   text-align: center;
   color: white;
 }
 .image{
-  background-image: url('../images/image2bis.jpg');
-  height: 850px;
+  background-image: url('../images/taxi.jpg');
+  height: 720px;
   background-size: cover;
   opacity: 1;
 }
 .rex {
   text-align: center;
-  font-size: 18px;
+  font-size: 10px;
   font-family: 'Open Sans';
   color: white;
-  text-shadow: 0 0 30px rgba(0, 0, 0, .7);
+  text-shadow: 0 0 30px rgba(, 0, 0, .7);
 }
 .rexstudent{
   font-style: italic;
@@ -96,7 +97,7 @@ body {
 /* Vertical spacer to help content breathe */
 
 .vertical-spacer {
-  height: 8em;
+  height: 4em;
 }
 
 /* Some padding for feature images */
